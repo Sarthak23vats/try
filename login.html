@@ -1,0 +1,92 @@
+<html>
+  <head>
+    <title>The Login In</title>
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+       <style> 
+        {box-sizing: border-box}
+        
+     input[type=password], input[type=number] {
+            width: 100%;
+            padding: 15px;
+            margin:  5px 0 22px 0;
+            display: inline-block;
+            border: none;
+            background: #f1f1f1;
+        }
+        
+        button {
+            background-color: #f77a04;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            opacity: 0.9;
+        }
+        
+        button:hover{
+            opacity:1;
+        }
+           
+        
+        
+        .container {
+            padding: 16px;
+        }
+        
+        
+        .clearfix::after {
+            content: "";
+            clear:both;
+            display: table;
+        }
+        
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+        
+        @media screen and (max-width:300px) {
+            .cancelbtn, .signupbtn {
+                width: 20%;
+            }
+        }
+      </style>
+      </head>
+    <body>
+      <div class="container" style="margin: 50px">
+        <div class="row">
+            <div class="col-sm-4">
+           <h2 style="color: #f77a04"> Login <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMmE-_Uln4qs0rjzwM7bSx6mWwlGP1866iuz8uM6qUf4V35fQodg" style="width:50px; text-align: right; margin-left:30px"></h2>
+                <a href="#" style="color: dodgerblue">Create an Account</a>
+             <form action="/action_page.php">
+                 <div class="container">
+                   <table style="margin-top: 20px">
+                      <tr>
+                        <td><input type="number" placeholder="Enter Phone Number" required></td>
+                       </tr>
+                       <tr>
+                        <td><input type="password" placeholder="Enter Password" required></td>
+                       </tr>
+                       
+                     </table>
+                     <div class="clearfix">
+                      <button type="button" class="loginbtn" >Login</button>
+                     </div>
+                 </div>
+             </form>
+           </div>
+          </div>
+        
+        </div>
+    
+    </body>
+
+</html>
